@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>ROCK - PAPER - SCISSOR </h1>
+    <H3>5 round winning game</H3>
+    <div id="p-div">
+        Player Score ==>
+        <div id="p-score">
+            <h3 id="p-s">0</h3>
+        </div>
+        
+        <button id="rock">ROCK</button>
+        <button id="paper">PAPER</button>
+        <button id="scissor">SCISSOR</button>
+         
+        <div id="c-score">
+            <h3 id="c-s">0</h3>
+        </div>
+        <== Computer Score
+    </div>
+    <div id="maindiv">
+        <h2>Round Decision:</h2>
+        <div id="roundAns"></div>
+        <h2>Computer Selection : </h2>
+        <div id="ansDiv"></div>
+    </div>
+        <p id="ans"></p>
+    <button id="reset-btn">RESET</button>
+     
+
+    <div class="modal" id="endgameModal">
+        <p class="modal-title" id="endgameMsg"></p>
+        <button class="btn btn-restart" id="restartBtn">Play again</button>
+      </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
